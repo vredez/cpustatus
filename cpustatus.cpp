@@ -87,7 +87,7 @@ int main(int argc, char **argv)
 {
     if (argc < 2) {
         fprintf(stderr, "Usage: OLD_PROC_STAT | cpustatus CORECOUNT "
-                        "[SYMBOL0 SYMBOL1 ...]\n");
+                        "[GLYPH0 GLYPH1 ...]\n");
         return 1;
     }
 

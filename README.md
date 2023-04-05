@@ -1,6 +1,6 @@
 # cpustatus
 A small tool generating a text-based status line for CPU core usage bars based on ```/proc/stat``` data.
-
+Useful for text-based status bars like in [dwm](https://dwm.suckless.org/).
 ## Installation
 ```
 sudo make install
@@ -9,7 +9,6 @@ sudo make install
 You can specify the amount of CPU cores to watch and bar-glyphs to use. The provided bar-glyphs will be used to display core usage ranges: if two glyphs are specified, the first one is used for the range ```[0, 0.5]``` and the second for the range ```(0.5, 1]```.
 ```
 OLD_PROC_STAT | cpustatus CORECOUNT [GLYPH0 GLYPH1 ...]
-
 ```
 
 ## Examples
